@@ -5,8 +5,11 @@
     "room": "Drawing Room",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -15,8 +18,11 @@
     "room": "Drawing Room",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -25,8 +31,11 @@
     "room": "Drawing Room",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -35,8 +44,11 @@
     "room": "Drawing Room",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -45,19 +57,24 @@
     "room": "Drawing Room",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
-
   {
     "id": 6,
     "name": "Work Room 1 Fan 1",
     "room": "Work Room 1",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -66,8 +83,11 @@
     "room": "Work Room 1",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -76,8 +96,11 @@
     "room": "Work Room 1",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -86,8 +109,11 @@
     "room": "Work Room 1",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -96,19 +122,24 @@
     "room": "Work Room 1",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
-
   {
     "id": 11,
     "name": "Work Room 2 Fan 1",
     "room": "Work Room 2",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -117,8 +148,11 @@
     "room": "Work Room 2",
     "type": "Fan",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 60,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -127,8 +161,11 @@
     "room": "Work Room 2",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -137,8 +174,11 @@
     "room": "Work Room 2",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
@@ -147,38 +187,50 @@
     "room": "Work Room 2",
     "type": "Light",
     "status": false,
-    "power": 0,
+    "current_power": 0,
     "rated_power": 15,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
     "last_updated": null
   },
   {
-  "id": 16,
-  "name": "Drawing Room Door",
-  "room": "Drawing Room",
-  "type": "Door",
-  "status": false,
-  "power": 0,
-  "rated_power": 0,
-  "last_updated": null
-},
-{
-  "id": 17,
-  "name": "Work Room 1 Door",
-  "room": "Work Room 1",
-  "type": "Door",
-  "status": false,
-  "power": 0,
-  "rated_power": 0,
-  "last_updated": null
-},
-{
-  "id": 18,
-  "name": "Work Room 2 Door",
-  "room": "Work Room 2",
-  "type": "Door",
-  "status": false,
-  "power": 0,
-  "rated_power": 0,
-  "last_updated": null
-}
+    "id": 16,
+    "name": "Drawing Room Door",
+    "room": "Drawing Room",
+    "type": "Door",
+    "status": false,
+    "current_power": 0,
+    "rated_power": 0,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
+    "last_updated": null
+  },
+  {
+    "id": 17,
+    "name": "Work Room 1 Door",
+    "room": "Work Room 1",
+    "type": "Door",
+    "status": false,
+    "current_power": 0,
+    "rated_power": 0,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
+    "last_updated": null
+  },
+  {
+    "id": 18,
+    "name": "Work Room 2 Door",
+    "room": "Work Room 2",
+    "type": "Door",
+    "status": false,
+    "current_power": 0,
+    "rated_power": 0,
+    "energy_today": 0.0,
+    "total_runtime": 0,
+    "activated_at": null,
+    "last_updated": null
+  }
 ]

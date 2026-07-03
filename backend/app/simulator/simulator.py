@@ -16,26 +16,33 @@ class DeviceSimulator:
                     self.manager.get_all_devices()
                 )
 
-                # Toggle the device status
                 new_status = not device["status"]
 
-                self.manager.update_device(
+                updated_device = self.manager.update_device(
                     device["id"],
                     new_status
                 )
 
                 state = self.get_state_text(
-                    device["type"],
-                    new_status
+                    updated_device["type"],
+                    updated_device["status"]
                 )
 
                 print(
-                    f"[SIMULATOR] {device['name']} -> {state}"
+                    f"[SIMULATOR] "
+                    f"{updated_device['name']} | "
+                    f"{state} | "
+                    f"Current: {updated_device['current_power']}W | "
+                    f"Rated: {updated_device['rated_power']}W | "
+                    f"Runtime: {updated_device['total_runtime']}s | "
+                    f"Energy: {updated_device['energy_today']:.6f} kWh | "
+                    f"{updated_device['last_updated']}"
                 )
 
                 await asyncio.sleep(
                     random.randint(3, 5)
                 )
+
         except asyncio.CancelledError:
             print("\n[SIMULATOR] Simulation stopped.")
 
