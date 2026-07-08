@@ -2,6 +2,7 @@ import discord
 from discord import app_commands
 from discord.ext import tasks
 from datetime import datetime
+from ai import english_support
 
 from config import ALERT_CHANNEL_ID
 from config import TOKEN
@@ -39,6 +40,26 @@ async def on_ready():
 
     print(f"Logged in as {client.user}")
 
+# =========================
+# /english
+# ========================
+@tree.command(
+    name="english",
+    description="Improve English like a professional support engineer"
+)
+@app_commands.describe(
+    prompt="Enter your sentence or request"
+)
+async def english(
+    interaction: discord.Interaction,
+    prompt: str
+):
+
+    await interaction.response.defer()
+
+    answer = english_support(prompt)
+
+    await interaction.followup.send(answer)
 
 # ==========================
 # /devices

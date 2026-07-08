@@ -5,7 +5,18 @@ A real-time Smart Office Monitoring System built for the **IUT CSE TechFest 2026
 The project simulates and monitors an office environment using a centralized **FastAPI** backend. It provides live monitoring through a **React Dashboard**, **Discord Bot**, and **ESP32 IoT devices**, ensuring all clients always reflect the same device state.
 
 ---
+
 # 📌 Features
+
+---
+
+# 🏗 System Architecture
+
+<p align="center">
+<img src="docs/system-architecture.png" width="100%">
+</p>
+
+---
 
 ## 🌐 Backend
 
@@ -32,10 +43,10 @@ The project simulates and monitors an office environment using a centralized **F
 
 ---
 
-# 🏗 System Architecture
+# 🏗 Dashboard Live
 
 <p align="center">
-<img src="docs/system-architecture.png" width="100%">
+<img src="docs/React Dashboard.png" width="100%">
 </p>
 
 ---
